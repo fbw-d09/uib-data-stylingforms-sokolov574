@@ -1,0 +1,96 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box
+{
+    position: relative;
+}
+
+.back
+{
+    background-image: url(./images/background.jpg);
+    background-size: contain;
+    object-fit: cover;
+    width: 100vw;
+    height: 200vh;
+    padding-top: 40px;
+}
+
+.logo
+{
+    background-image: url(./images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 40vh;
+    margin: 0 auto;
+}
+
+.description
+{
+    border: 5px solid black;
+    background: rgba(215, 222, 221, 0.7);
+    
+    width: 40rem;
+    height: 10rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    
+    
+}
+
+.forms
+{   
+   position: relative;
+    width: 40rem;
+    height: 30rem;
+    margin: 0 auto;
+    background-color: rgba(215, 222, 221, 0.8);
+    margin-top: 40px;
+}
+
+.reservation
+{
+    position: absolute;
+    left: 9rem;
+    display: flex;
+    /* border: 2px solid red; */
+    font-size: 15px;
+    width: 350px;
+    height: 300px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+label
+{
+    display: flex;
+    margin: 0 auto;
+   /*  border: 2px solid black; */
+    width: 300px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    margin-top: 10px;
+    
+}
+
+input
+{
+    font-style: italic;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+}
+
+
+.button
+{
+    background-color: rgb(59, 59, 59);
+    color: white;
+
+}
